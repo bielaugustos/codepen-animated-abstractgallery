@@ -3,7 +3,7 @@ html, body {
   }
   
   body,main {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Bungee Shade', cursive;
     color: #222;
     background: #222;
@@ -16,9 +16,9 @@ html, body {
   h1{
     color: #FFF;
     text-align: center;
+    justify-content: center;
     font-size: 4rem;
-    margin-bottom: -20px;
-    transition: 0.8s;
+    transition: 1s;
   }
 
   
@@ -176,15 +176,14 @@ html, body {
   }
 
   .footer-social{
-    text-align: center;
-    justify-content: space-around;
+    text-align: center; 
+    line-height: 12rem;
   }
 
   section > div > a > i{
     font-size: 2rem;
     color: #FFF;
-    padding: 10px;
-    transition: 0.7s;
+    transition: 0.8s;
   }
 
   section > div > a > i:hover{
@@ -192,5 +191,6 @@ html, body {
     color: #9925be;
 
   }
+  
 
   
